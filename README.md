@@ -25,3 +25,12 @@ In real life, similar objects can be grouped based on some criteria.You can crea
 ex:
   A hummingbird and an eagle are both birds, so they can be classified as belonging to some made up
 Birds class.
+
+Encapsulation:
+
+An encapsulation is information hiding. Aspect of information hiding is the visibility of methods and properties.In some languages, objects can have public , private , and protected methods
+and properties. In JavaScript, all methods and properties are public.
+
+ex:
+  The same thing happens in OOP when your code uses an object by calling its methods. It doesn't
+matter if you coded the object yourself or it came from some third-party library; your code doesn't need to know how the methods work internally.
