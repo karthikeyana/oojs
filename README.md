@@ -1,6 +1,7 @@
 # Object-Oriented-JavaScript
 
 Programming (OOP):
+
 •	 Object, method, and property
 •	 Class
 •	 Encapsulation
@@ -34,3 +35,14 @@ and properties. In JavaScript, all methods and properties are public.
 ex:
   The same thing happens in OOP when your code uses an object by calling its methods. It doesn't
 matter if you coded the object yourself or it came from some third-party library; your code doesn't need to know how the methods work internally.
+
+Aggregation:
+
+   Combining several objects into a new one is known as aggregation or composition.
+It's a powerful way to separate a problem into smaller and more manageable parts
+(divide and conquer).
+
+ex:
+  A Book object can contain (aggregate) one or more Author
+objects, a Publisher object, several Chapter objects, a TOC (table of contents),
+and so on.
