@@ -42,3 +42,11 @@ Aggregation:
 
 ex:
   A Book object can contain (aggregate) one or more Author objects, a Publisher object, several Chapter objects, a TOC (table of contents), and so on.
+
+Inheritance:
+
+Inheritance is an elegant way to reuse existing code. classes inherit from other classes, but in JavaScript, since there are no classes, objects inherit from other objects.
+
+ex:
+  You can have a generic object, Person , which has properties such as name and date_of_birth , and
+which also implements the functionality walk , talk , sleep , and eat . Then, you figure out that you need another object called Programmer . You could re-implement all the methods and properties that Person has, but it would be smarter to just say that Programmer inherits Person , and save yourself some work. The Programmer object only needs to implement more-specific functionality, such as the writeCode method, while reusing all of the Person object's functionality.
