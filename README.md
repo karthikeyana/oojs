@@ -54,3 +54,11 @@ which also implements the functionality walk , talk , sleep , and eat . Then, yo
 Interface:
 
 The method name is the same, but when called on the new object, the method behaves differently. This way of redefining how an inherited method works is known as overriding.
+
+Polymorphism:
+
+  This ability to call the same method on different objects and have each of them
+respond in their own way is called polymorphism.
+
+ex:
+  A Programmer object inherited all of the methods of the parent Person object. This means that both objects provide a talk method, among others. Now imagine that somewhere in your code there's a variable called Bob , and it just so happens that you don't know if Bob is a Person object or a Programmer object. You can still call the talk method on the Bob object and the code will work.
